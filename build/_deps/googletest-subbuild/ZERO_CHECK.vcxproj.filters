@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\build\_deps\googletest-subbuild\CMakeFiles\1cb02a938841bdb2fcae71af171edfc2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1E311792-6430-3177-BFBA-2E6EAEB74999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\TFUNK\CHATGPTYARDAGE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\1CB02A938841BDB2FCAE71AF171EDFC2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild -BC:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

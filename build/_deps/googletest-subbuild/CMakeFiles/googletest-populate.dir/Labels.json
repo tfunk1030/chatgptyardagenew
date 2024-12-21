@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/1cb02a938841bdb2fcae71af171edfc2/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/b95918634c067a008fdfd7bbaf20a521/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/tfunk/chatgptyardage/build/_deps/googletest-subbuild/CMakeFiles/52fb2de82521ec73960238f90311ef06/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
