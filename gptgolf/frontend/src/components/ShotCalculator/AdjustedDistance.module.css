@@ -1,0 +1,116 @@
+.container {
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.distances {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.actual, .adjusted {
+  text-align: center;
+  flex: 1;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: #0066cc;
+  margin: 0 2rem;
+}
+
+.value {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #212529;
+  margin: 0.5rem 0;
+}
+
+.difference {
+  display: block;
+  font-size: 1rem;
+  color: #0066cc;
+  font-weight: 500;
+}
+
+.effects {
+  margin: 1.5rem 0;
+}
+
+.effects h3 {
+  color: #343a40;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.effects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.effect {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: #f8f9fa;
+  border-left: 4px solid #0066cc;
+  border-radius: 0 4px 4px 0;
+  color: #495057;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+}
+
+.effect::before {
+  content: '•';
+  margin-right: 0.5rem;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.summary {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #e9ecef;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.summary h3 {
+  color: #343a40;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.total {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+@media (max-width: 768px) {
+  .distances {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+    margin: 1rem 0;
+  }
+
+  .value {
+    font-size: 1.5rem;
+  }
+}

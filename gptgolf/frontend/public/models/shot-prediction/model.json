@@ -1,0 +1,143 @@
+{
+  "modelTopology": {
+    "class_name": "Sequential",
+    "config": {
+      "name": "sequential_1",
+      "layers": [
+        {
+          "class_name": "Dense",
+          "config": {
+            "units": 64,
+            "activation": "relu",
+            "use_bias": true,
+            "kernel_initializer": "glorot_uniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": null,
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null,
+            "name": "dense_1",
+            "trainable": true,
+            "batch_input_shape": [null, 13],
+            "dtype": "float32"
+          }
+        },
+        {
+          "class_name": "Dense",
+          "config": {
+            "units": 32,
+            "activation": "relu",
+            "use_bias": true,
+            "kernel_initializer": "glorot_uniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": null,
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null,
+            "name": "dense_2",
+            "trainable": true
+          }
+        },
+        {
+          "class_name": "Dense",
+          "config": {
+            "units": 7,
+            "activation": "linear",
+            "use_bias": true,
+            "kernel_initializer": "glorot_uniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": null,
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null,
+            "name": "dense_3",
+            "trainable": true
+          }
+        }
+      ]
+    },
+    "keras_version": "2.12.0",
+    "backend": "tensorflow"
+  },
+  "weightsManifest": [
+    {
+      "paths": ["group1-shard1of1.bin"],
+      "weights": [
+        {
+          "name": "dense_1/kernel",
+          "shape": [13, 64],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense_1/bias",
+          "shape": [64],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense_2/kernel",
+          "shape": [64, 32],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense_2/bias",
+          "shape": [32],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense_3/kernel",
+          "shape": [32, 7],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense_3/bias",
+          "shape": [7],
+          "dtype": "float32"
+        }
+      ]
+    }
+  ],
+  "format": "layers-model",
+  "generatedBy": "keras v2.12.0",
+  "convertedBy": "TensorFlow.js Converter v4.10.0",
+  "signature": {
+    "inputs": {
+      "input_1": {
+        "dtype": "float32",
+        "shape": [-1, 13],
+        "name": "input_1"
+      }
+    },
+    "outputs": {
+      "dense_3": {
+        "dtype": "float32",
+        "shape": [-1, 7],
+        "name": "dense_3"
+      }
+    }
+  },
+  "modelInitializer": {
+    "className": "Model",
+    "config": {
+      "name": "shot_prediction_model",
+      "layers": []
+    }
+  },
+  "trainingConfig": {
+    "loss": "mean_squared_error",
+    "metrics": ["mae"],
+    "weighted_metrics": null,
+    "loss_weights": null,
+    "optimizer_config": {
+      "class_name": "Adam",
+      "config": {
+        "learning_rate": 0.001,
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "epsilon": 1e-7
+      }
+    }
+  }
+}

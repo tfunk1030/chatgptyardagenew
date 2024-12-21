@@ -1,0 +1,29 @@
+# Build directories
+build/
+**/build/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled files
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+package-lock.json
+**/package-lock.json
+
+# Logs
+*.log
